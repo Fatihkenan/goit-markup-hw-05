@@ -625,7 +625,7 @@ margin-right: 120px;
   margin-bottom: 16px;
 }
 .form{
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .form-name{
   font-size: 12px;
@@ -637,6 +637,7 @@ margin-right: 120px;
 }
 .username-form{
   position: relative;
+  
 }
 .user-name-input{
   width: 100%;
