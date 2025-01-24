@@ -745,8 +745,10 @@ margin-right: 120px;
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked{
+.visually-hidden:checked + span{
   background-color: var(--cloud);
+  border: none;
+  fill: var(--cloud );
 }
 .label_privacy{
   color: var(--iris);
