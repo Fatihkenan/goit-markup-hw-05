@@ -628,6 +628,9 @@ margin-right: 120px;
 .modal-container-form{
   margin-bottom: 8px;
 }
+.margin-form{
+  margin-bottom: 16px;
+}
 .form-name{
   font-size: 12px;
   line-height: 1.17;
@@ -721,4 +724,30 @@ margin-right: 120px;
   background-color: var(--iris);
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal_check{
+  margin-bottom: 24px;
+}
+.modal_checklabel{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
+}
+.label_dogrulama{
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.visually-hidden:checked{
+  background-color: var(--cloud);
+}
+.label_privacy{
+  color: var(--iris);
 }
