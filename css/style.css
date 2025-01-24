@@ -745,7 +745,7 @@ margin-right: 120px;
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked + .label_dogrulama{
+.checkbox-input:checked + .modal_checklabel .label_dogrulama{
   background-color: var(--cloud);
   border: none;
   fill: var(--cloud );
