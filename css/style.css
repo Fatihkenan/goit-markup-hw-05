@@ -745,7 +745,7 @@ margin-right: 120px;
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked + span{
+.visually-hidden:checked + .label_dogrulama{
   background-color: var(--cloud);
   border: none;
   fill: var(--cloud );
